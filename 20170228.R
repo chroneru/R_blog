@@ -1,0 +1,5 @@
+library(tau)
+vec1<-c("Hello","こんにちは",1,"2")
+is.utf8(vec1)
+is.ascii(vec1)
+detach("package:tau")
